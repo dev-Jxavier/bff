@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 4px;
+}
+
+.btn {
+  padding: 6px;
+  border: none;
+  color: #fff;
+  background-color: #6495ed;
+  width: 29em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 0.5s;
+  margin-top: 4px;
+}
+
+.btn:hover{
+  background-color: #8aaae5;
+}
+
+.input {
+  height: 1.8em;
+  width: 28em;
+}
